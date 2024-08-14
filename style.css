@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: conic-gradient(from 180deg, #dcd75f, #dcd269, #e1cd73, #e1c878, #e3c382, #e1b58e, #dda592, #e9a99f, #e79fa3, #dba2a2, #d6aaa2, #daaea6, #daaea6, #c8bea0, #c3c39b, #b9c89b, #b4cd96, #aad296, #a5d791, #96e18c, #91e68c, #87eb87, #87eb8c, #8ae691, #8ce197, #8fdca0, #91d7aa, #95d2af, #96cdb4, #98c8be, #9bc3c3, #9cbecd, #9cbecd, #a5aae6);
+}
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+#form{
+    width: 50%;
+}
+h2 {
+    text-align: center;
+    color: #333;
+}
+.form-group {
+    margin: 0 auto 15px;
+    width: 100%;
+}
+#studentForm{
+    width: 50%;
+    margin: auto;
+}
+.form-group label {
+    display: flex;
+    margin-bottom: 5px;
+    color: #555;
+}
+.form-group input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.btn-form-group{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.btn-form-group button {
+    width: 40%;
+    padding: 10px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: gray;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.form-group button:hover {
+    background-color: darkgray;
+}
+.records {
+    margin-top: 40px;
+    width: 50%;
+}
+.records table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.records table, .records th, .records td {
+    border: 1px solid #ddd;
+}
+.records th, .records td {
+    padding: 10px;
+    text-align: left;
+}
+.records th {
+    background-color: #f2f2f2;
+}
+.action-buttons button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: gray;
+    color: white;
+}
+.action-buttons button:hover {
+    background-color: darkgray;
+}
